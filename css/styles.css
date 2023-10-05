@@ -1328,7 +1328,6 @@ svg {
     .footer-con {
         display: flex;
         align-items: baseline;
-        flex-wrap: nowrap;
     }
     
     .fotter-logo-con {
