@@ -74,6 +74,7 @@ svg {
 /*header*/
 
 .header {
+    position: relative;
     border-bottom: 1px solid var(--c-border); 
     /* padding: 0 15px 0 15px; */
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -99,6 +100,9 @@ svg {
 }
 
 .menu-button {
+    position: absolute;
+    top:16px;
+    right: 16px;
     background: var(--color-primary-light);
     display: flex;
     justify-content: center;
@@ -685,8 +689,10 @@ svg {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 408px;
-    min-height: 584px;
+    /* width: 408px;
+    min-height: 584px; */
+    width: 288px;
+    height: 623px;
     overflow: auto;
     background-color: var(--c-window);
     border-radius: 4px;
@@ -1047,7 +1053,10 @@ svg {
     .menu-container {
         display: none;
     }
-
+    
+    .logo {
+        margin-right: 120px;
+    }
 
 
 
@@ -1222,6 +1231,11 @@ svg {
     .footer-input {
         width: 264px;
     }
+
+    .modal {
+        width: 408px;
+        min-height: 584px;
+    }
 }
 
 @media screen and (max-width: 1157px) {
@@ -1245,7 +1259,9 @@ svg {
     }
 
 
-   
+    .logo {
+        margin-right: 76px;
+    }
     
     .address-list {
         display: flex;
