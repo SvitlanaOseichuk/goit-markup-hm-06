@@ -692,7 +692,7 @@ svg {
     /* width: 408px;
     min-height: 584px; */
     width: 288px;
-    height: 623px;
+    min-height: 623px;
     overflow: auto;
     background-color: var(--c-window);
     border-radius: 4px;
