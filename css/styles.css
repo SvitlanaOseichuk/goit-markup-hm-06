@@ -231,7 +231,7 @@ svg {
     background-size: cover;   
     padding: 188px 0; 
     background-color: var(--c-brand);
-    max-width: 767px; /*1440px*/
+    max-width: 320px; /*1440px*/
     margin: 0 auto;
 }
 
@@ -992,6 +992,7 @@ svg {
         display: none;
     }
 
+    
     .address-link {
         display: none;
     }
@@ -1151,7 +1152,7 @@ svg {
     }
 
     .hero-section {
-        max-width: 1157px;
+        max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
                           url(../images/background/people-office_tab@2x.jpg);
 
@@ -1170,6 +1171,7 @@ svg {
 
     .advantages-item {
        flex-basis: calc((100% - 24px) / 2);
+       ;
     }
 
    
@@ -1200,8 +1202,6 @@ svg {
         width: 356px;
         height: 300px;
     }
-
-
 
 
     .footer-con {
@@ -1267,7 +1267,7 @@ svg {
     }
 
     .hero-section {
-        max-width: 1440px;
+        max-width: 1158px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
                           url(../images/background/people-office_dask.jpg);
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
